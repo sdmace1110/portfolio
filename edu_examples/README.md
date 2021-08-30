@@ -1,9 +1,7 @@
 # Educational Examples: 
 
 ## Explanation
-### Inside this folder I have uploaded projects from university courses that stuck with me.  This is in an effort to demonstrate a breadth of thought that I have given to writing code or developing software.  These may seem disparate or disjointed languages or projects, but they all coalesce to form my skills and thoughts on programming.
-
-### I have not included my favorite program - the one when completed brought outstanding pride and joy - an elementary Turing machine.  It was written in C++ and was no more than 40 lines (including the project comments!), so to fully get the effect I would need to include the previous 6 projects that delved into state machines and all the fine things one learns in Discrete Structures.   What I have included are examples of languages and language paradigms that have formed my outlook and understanding on programming.
+### I have not included my favorite program from university - the one when completed brought outstanding pride and joy - an elementary Turing machine.  It was written in C++ and was no more than 40 lines (including the project comments!), so to fully get the effect I would need to include the previous 6 projects that delved into state machines and all the fine things one learns in Discrete Structures.   What I have included are examples of languages and language paradigms that have formed my outlook and understanding on programming.
 
 ## Examples
 
