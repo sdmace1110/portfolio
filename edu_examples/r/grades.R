@@ -1,7 +1,3 @@
-# Project 2
-# Shawn Mace
-# CSCI 3210-01
-# Due: April 10, 2019
 # In this project we use R to create a program that read from a file
 # contain student numbers and grades per assignment type.  We prompt 
 # twice to recover individual records, then automatically print the entire
