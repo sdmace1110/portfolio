@@ -1,0 +1,120 @@
+body {
+  background-color: rgb(30, 30, 30);
+  font-family: Verdana, sans-serif;
+}
+
+#sort_container {
+  position: relative;
+  min-height: 48em;
+  width: 27.5em;
+  margin: 1em auto;
+  /* background-color: rgb(90, 30, 30); */
+  padding-left: 0.5em;
+}
+
+#data_container {
+  max-width: 100vw;
+  /* border: 2px solid purple; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.button_panel {
+  width: 33%;
+  background-color: inherit;
+  margin: 1em auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.info_panel {
+  width: 33%;
+  min-height: 48em;
+  /* background-color: orange; */
+  margin: 1em auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.btn {
+  width: 17em;
+  /* height: 3em; */
+  background-color: var(--gray);
+  margin: 0.5em;
+  cursor: pointer;
+  text-align: center;
+  padding: 0.5em;
+  border-radius: 25px;
+}
+
+.btn:hover {
+  text-transform: uppercase;
+}
+
+.btn.sel {
+  outline: 2px solid var(--lightblue);
+}
+.btn.bub {
+  outline: 2px solid var(--lightgreen);
+}
+.btn.ins {
+  outline: 2px solid var(--purple);
+}
+.btn.mer {
+  outline: 2px solid var(--yellow);
+}
+
+.btn.sel:hover {
+  color: var(--lightblue);
+  background: linear-gradient(90deg, var(--lightblue), var(--darkblue));
+}
+.btn.bub:hover {
+  color: var(--gray);
+
+  background: linear-gradient(90deg, var(--lightgreen), var(--darkgreen));
+}
+.btn.ins:hover {
+  color: var(--gray);
+
+  background: linear-gradient(90deg, var(--lightpurple), var(--darkpurple));
+}
+.btn.mer:hover {
+  color: var(--darkgreen);
+
+  background: linear-gradient(90deg, var(--yellow), var(--orange));
+}
+
+.btn:hover {
+  color: rgb(170, 167, 167);
+}
+
+@media screen and (max-width: 1300px) {
+  #data_container {
+    flex-direction: column;
+    max-width: 85%;
+  }
+  .button_panel,
+  .info_panel {
+    width: 100%;
+  }
+
+  #sort_info_container {
+    width: 100%;
+    outline: 1px solid white;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  #sort_container {
+    min-height: 30em;
+  }
+  #data_container {
+    /* flex-direction: column; */
+    width: 100vw;
+  }
+}
